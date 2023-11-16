@@ -1,0 +1,46 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  background-color: #333; /* Replace with your desired background color */
+}
+
+header img {
+  max-width: 200px; /* Adjust the logo's size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-button {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.image-button img {
+  width: 200px; /* Adjust the image button size as needed */
+  height: 100px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+.image-button:hover img {
+  transform: scale(1.1); /* Add a scale transform on hover for animation */
+}
+
+/* Additional styles as needed */
